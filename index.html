@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Sudski registar</title>
+</head>
+
+<body>
+
+  Djelatnosti:
+  <select class="form-select" id="djelatnostiDropdown" aria-label="Default select example">
+  </select>
+
+  <div class="form-check">
+    Sudovi:
+    <label class="form-check-label" for="flexCheckDefault" id="drzave">
+    </label>
+  </div>
+
+  <div class="form-check">
+    <br>
+    Naziv vrste pravnog oblika:
+
+    <label class="form-check-label" for="flexCheckDefault" id="pravni">
+    </label>
+  </div>
+
+
+  <h1>Pretraga Tvrtke po MBS</h1>
+    <input type="text" id="mbsInput" placeholder="Unesite MBS">
+    <button id="btn" >Pretraži</button>
+    <div id="results"></div>
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
+  <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
